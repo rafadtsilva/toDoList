@@ -63,15 +63,20 @@ div {
 
 
 main {
-    background-color: blue;
+    /* background-color: blue; */
     max-width: 1400px;
     min-width: 100px;
     margin: auto;
 }
 
 section {
-    background-color: red;    
+    /* background-color: red;     */
     overflow: auto;
+    text-align: center;
+}
+
+#week {
+    /* background-color: lawngreen; */
 }
 
 
@@ -82,14 +87,14 @@ section {
 }
 
 div {
+    display: inline-block;
     text-align: center;
     min-width: 250px;
     max-width: 400px;
     min-height: 400px;
-    display: block;
     margin: 5px;
     margin-bottom: 25px;
-    background-color: #eee3d652;
-    float: left;
+    background-color: #eee3d6;
+    /* float: left; */
     
 } 

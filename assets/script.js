@@ -5,7 +5,11 @@ onload = function () {
 
 function inserir(e) {
     let valor = e.value;
-    console.log(e);
+    console.log(valor);
+
+    let v1 = document.getElementById("l1");
+    console.log(v1.innerHTML);
+    v1.innerHTML = v1.innerHTML + "<li>" + valor + "</li>";
     
     // let title = document.getElementById("task");
     // title.innerHTML = valor;

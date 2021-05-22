@@ -11,7 +11,7 @@ body {
 }
 
 
-h1, h3 {
+h1, h3, h2 {
     font-family: 'Courier Prime', monospace;
     color: #262014;
 }
@@ -24,43 +24,17 @@ h1 {
 }
 
 h2 {
+    font-size: 30px;
     text-align: center;
     padding: 10px;
     margin-top: 10px;
     overflow: hidden;
     /* font-family: 'Patrick Hand', cursive; */
 }
-
-
 h3 {    
     font-size: 22px;
     margin: 10px;
 }
-
-/* main {
-    background-color: blue;
-}
-
-section {
-    background-color: red;
-}
-div {
-    margin: 5px;
-    min-height: 400px;
-    min-width: 300px;
-    float: left;
-    background-color: #eee3d6b4;
-} */
-
-
-
-
-
-
-
-
-
-
 
 main {
     /* background-color: blue; */
@@ -76,25 +50,49 @@ section {
 }
 
 #week {
-    /* background-color: lawngreen; */
+    background-color: none;
 }
 
 
 .title {
     margin: auto;
-    width: 93%;
-    background-color: #99BBE0;    
 }
 
 div {
     display: inline-block;
     text-align: center;
-    min-width: 250px;
+    min-width: 350px;
     max-width: 400px;
-    min-height: 400px;
+    height: 500px;
     margin: 5px;
     margin-bottom: 25px;
     background-color: #eee3d6;
+    border-radius: 10px;
     /* float: left; */
     
 } 
+
+input {
+    font-size: 20px;
+    /* background-color: blueviolet; */
+    width: 330px;
+    height: 35px;
+    border-radius: 5px;
+    /* border: 5px solid rgba(128, 128, 128, 0.445); */
+    background-color: #A69580;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.input {
+    background-color: #a6958069;
+    height: 50px;    
+}
+
+.lixo {
+    width: 30px;
+    background-color: ivory;
+    border-radius: 5px;
+    margin-top: 10px;
+    float: right;
+}

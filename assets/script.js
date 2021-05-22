@@ -6,13 +6,10 @@ onload = function () {
 function inserir(e) {
     let valor = e.value;
     console.log(valor);
+    e.value = "";
 
-    let v1 = document.getElementById("l1");
+    let v1 = document.getElementById("d1");
     console.log(v1.innerHTML);
-    v1.innerHTML = v1.innerHTML + "<li>" + valor + "</li>";
+    v1.innerHTML = v1.innerHTML + "<p>" + valor + "</p>";
     
-    // let title = document.getElementById("task");
-    // title.innerHTML = valor;
-
-    // localStorage.setItem("task", valor);
 }

@@ -5,12 +5,14 @@ onload = function () {
 
 function inserir(x, e) {
     let valor = e.value;
-    console.log(valor);
-    e.value = "";
-    let inp = ["d1", "d2", "d3", "d4", "d5", "d6", "d7"];
+    if (valor != ""){
+        console.log(valor);
+        e.value = "";
 
-    let v1 = document.getElementById(inp[x]);
-    console.log(v1.innerHTML);
-    v1.innerHTML = v1.innerHTML + "<p>" + valor + "</p>";
-    
+        let inp = ["d1", "d2", "d3", "d4", "d5", "d6", "d7"];
+
+        let v1 = document.getElementById(inp[x]);
+        console.log(v1.innerHTML);
+        v1.innerHTML = v1.innerHTML + "<p>" + valor + "</p>";
+    }
 }

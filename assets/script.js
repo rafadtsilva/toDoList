@@ -13,14 +13,21 @@ function inserir(x, e) {
 
         let v1 = document.getElementById(inp[x]);
         console.log(v1.innerHTML);
-        v1.innerHTML = v1.innerHTML + "<p " 
-        + 'onclick="apagar(this)">'+ valor + "</p>";
+        // v1.innerHTML = v1.innerHTML + "<p " 
+        // + 'onclick="apagar(this)">'+ valor + "</p>";
+        // v1.innerHTML = v1.innerHTML + "<p>" + valor + "</p>" + "<a "
+        // + 'onclick="apagar(this)">' + '<img class="apagar" src="./assets/lixeira.png">' 
+        // + "</a>";
+        v1.innerHTML = v1.innerHTML + "<a "
+        + 'class="botton2">' + "<p>" + valor + "</p>" 
+        + '<img onclick="apagar(this)" class="apagar" src="./assets/lixeira.png">' 
+        + "</a>";
     }
     // console.log(document.getElementsByTagName("p"))
 }
 
 function apagar(e) {
     console.log(e);
-    e.outerHTML=" ";
+    e.outerHTML="";
 
 }

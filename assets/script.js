@@ -16,27 +16,7 @@ function inserir(x, e) {
         let inp = ["d1", "d2", "d3", "d4", "d5", "d6", "d7"];
         let x1 = contTask[x];
         let v1 = document.getElementById(inp[x]);
-        console.log(v1);
         let sequenciaTask = v1.getElementsByClassName(x1.toString());
-        console.log(x);
-        console.log(x1);
-        console.log(contTask[x].toString());
-        console.log(sequenciaTask);
-        console.log(sequenciaTask[0]);
-
-        // console.log(contTask[x]);
-        // console.log(sequenciaTask[x]);
-        // v1.innerHTML = v1.innerHTML + "<a " + 'class="botton2"' 
-        // + "onclick='apagar(this)'>" + '<p>' + valor + "</p>"
-        // + "<img class='apagar'" + "src='./assets/lixeira.png'" 
-        // + "onmouseover='onOver(this)'" + "onmouseout='onOut(this)'>"
-        // + '</a>'; 
-
-        // v1.innerHTML = v1.innerHTML + "<a>" + "<p>" + valor + "</p>" + "<img>" + "</img>" + "</a>";
-        // v1.addEventListener("mouseover", onOver)
-        // v1.addEventListener("mouseout", onOut)
-        // v1.className = "apagar";
-        // v1.setAttribute("img", "")
 
         sequenciaTask[0].innerHTML = sequenciaTask[0].innerHTML 
         + "<p>" + valor + "</p>"
@@ -45,9 +25,9 @@ function inserir(x, e) {
         + "onmouseover='onOver(this)' onmouseout='onOut(this)'>"
         + "</a>";
         let v2 = sequenciaTask[0].getElementsByClassName("apagar");
-        v2[0].setAttribute("onclick", "apagar('" + x 
+        v2[0].setAttribute("onclick", "apagar('" + x1 
         + "', document.getElementById('" 
-        + inp[x] + "')");
+        + inp[x] + "'))");
         
         contTask[x]++;
     } else {
@@ -59,12 +39,14 @@ function inserir(x, e) {
 }
 
 function apagar(x, e) {
-    contTask[x]--;
-    // console.log(e);
-    // console.log(x);
+    console.log(contTask[x]);
+    console.log(e);
+    console.log(x);
     let text = e.getElementsByClassName(x);
-    // console.log(text);
+    console.log(text);
     text[0].innerHTML="";
+    contTask[x]--;
+    console.log(contTask[x]);
 
 }
 function onOver(e) {

@@ -4,18 +4,14 @@ onload = function () {
 }
 
 var contTask = [0, 0, 0, 0, 0, 0, 0];
-var contWeekDay = [0, 1, 2, 3, 4, 5, 6];
-console.log(contTask);
 
 function inserir(x, e) {
-    console.log(contTask);
 
     let valor = e.value;
     if (contTask[x] <= 5) {
         e.value = "";
         let inp = ["d1", "d2", "d3", "d4", "d5", "d6", "d7"];
         let x1 = contTask[x];
-        let x2 = contWeekDay[x];
         let v1 = document.getElementById(inp[x]);
         let sequenciaTask = v1.getElementsByClassName(x1.toString());
         sequenciaTask[0].innerHTML = sequenciaTask[0].innerHTML 
@@ -26,10 +22,11 @@ function inserir(x, e) {
         + "</a>";
         let v2 = sequenciaTask[0].getElementsByClassName("apagar");
         v2[0].setAttribute("onclick", "apagar('" + x1 
-        + "', '" + x2 + "', document.getElementById('" 
+        + "', '" + x + "', document.getElementById('" 
         + inp[x] + "'))");
         contTask[x]++;
         console.log(contTask);
+        
 
     } else {
         alert("laksdlaksdlaksldkaslkdlasd");

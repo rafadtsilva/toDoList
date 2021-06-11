@@ -1,2 +1,2 @@
 <h1 align="center">toDoList</h1>
-Lista de tarefas.
+<p align="center">📄 Lista de Tarefas para organizar as atividades da semana</p>

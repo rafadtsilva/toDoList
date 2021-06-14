@@ -9,6 +9,9 @@
     <img src="https://img.shields.io/static/v1?label=&message=RafaelTrindade&color=7A5C43&style=for-the-badge&logo=linkedin"/>
   </a>
   <img src="https://img.shields.io/static/v1?label=&message=rafaeltrindade@outlook.com&color=7A5C43&style=for-the-badge&logo=microsoft"/>
+  <a href="https://www.pregart.com/toDoList/" align="center">
+    <img src="https://img.shields.io/static/v1?label=&message=Link_do_Site&color=7A5C43&style=for-the-badge&logo=SitePoint"/>
+  </a>
 </div><br>
 
 <div align="center">

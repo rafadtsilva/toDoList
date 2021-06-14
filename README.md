@@ -15,18 +15,21 @@
   <img src="https://github.com/rafadtsilva/toDoList/blob/main/assets/todolist.gif">
 <div>
 
+<h4 align="center"> 
+  ✅  Versão inicial finalizada ✅ <br><br>
+  🚧  Novas melhorias em breve  🚀 
+</h4>
+  
   <br>
 
-<p align="center">
+
+<h3 align="center">
  <a href="#objetivo">Objetivo</a> •
  <a href="#roadmap">Roadmap</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#contribuicao">Contribuição</a> • 
  <a href="#licenc-a">Licença</a> • 
  <a href="#autor">Autor</a>
-</p><br>
+</h3><br>
 
-<h4 align="center"> 
-  ✅  Versão inicial finalizada ✅ <br><br>
-  🚧  Novas melhorias em breve  🚀 
-</h4>
+

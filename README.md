@@ -9,7 +9,13 @@
     <img src="https://img.shields.io/static/v1?label=&message=RafaelTrindade&color=7A5C43&style=for-the-badge&logo=linkedin"/>
   </a>
   <img src="https://img.shields.io/static/v1?label=&message=rafaeltrindade@outlook.com&color=7A5C43&style=for-the-badge&logo=microsoft"/>
-</div><br><br>
+</div><br>
+
+<div align="center">
+  <img src="https://github.com/rafadtsilva/toDoList/blob/main/assets/todolist.gif">
+<div>
+
+  <br>
 
 <p align="center">
  <a href="#objetivo">Objetivo</a> •

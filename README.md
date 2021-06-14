@@ -34,5 +34,15 @@
  <a href="#licenc-a">Licença</a> • 
  <a href="#autor">Autor</a>
 </h3><br>
+  
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
 
 

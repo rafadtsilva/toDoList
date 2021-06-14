@@ -16,7 +16,7 @@
 
 <div align="center">
   <img src="https://github.com/rafadtsilva/toDoList/blob/main/assets/todolist.gif">
-<div>
+</div>
 
 <h4 align="center"> 
   ✅  Versão inicial finalizada ✅ <br><br>
